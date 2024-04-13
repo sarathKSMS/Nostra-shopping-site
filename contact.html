@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nostra-Contact</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <!-- font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+</head>
+
+<body>
+
+  <!-- Navbar -->
+
+  <nav class="navbar">
+    <h1 class="text-2xl tracking-tight font-bold item-center">Nostra</h1>
+
+    <div class="navbar-links">
+      <p class="home-link">
+        <a href="index.html">Home</a>
+      </p>
+      <p class="New_arrivals-link">
+        <a href="index.html">New arrival</a>
+      </p>
+      <p class="Most_wanted-link">
+        <a href="index.html">Most Wanted</a>
+      </p>
+      <p class="Collections-link">
+        <a href="collections.html">Collections</a>
+      </p>
+      <p class="Contactus-link">
+        <a href="contact.html">Contact Us</a>
+      </p>
+    </div>
+    <div class="menu-bar">
+      <i id="side-navbar-activate" class="fa-solid fa-bars"></i>
+    </div>
+  </nav>
+
+  <!-- side-navbar -->
+
+  <div class="side-navbar">
+    <p>
+      <i id="side-navbar-close" class="fa-solid fa-xmark"></i>
+    </p>
+    <div class="side-navbar-links">
+      <p class="side-navbar-link"><a href="./index.html">Home</a></p>
+      <p class="side-navbar-link"><a href="./index.html">New Arrival</a></p>
+      <p class="side-navbar-link"><a href="./index.html">Most Wanted</a></p>
+      <p class="side-navbar-link"><a href="./collections.html">Collections</a></p>
+      <p class="side-navbar-link"><a href="./contactus.html">Contact Us</a></p>
+    </div>
+
+  </div>
+
+
+  <!-- contact form -->
+  <section class="bg-white dark:bg-gray-900"
+    style="background-color: #1D232C; color: white-space; margin-left: 10%;margin-right: 10%; border-radius: 10px;">
+    <div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
+      <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white"
+        style="color: white;">Contact Us</h2>
+
+      <form action="#" class="space-y-8">
+        <div>
+          <label for="Name" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300"
+            style="color: white; margin-top: 10%;">Name</label>
+          <input type="text" id="name" style="padding: 1vw;"
+            class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
+            required>
+        </div>
+        <div>
+          <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300"
+            style="color: white;">Email</label>
+          <input type="email" id="email" style="padding: 1vw;"
+            class="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
+            required>
+        </div>
+        <div class="sm:col-span-2">
+          <label for="message" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-400"
+            style="color: white;">Your
+            message</label>
+          <textarea id="message" rows="6"
+            class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"
+            placeholder="Leave a comment..."></textarea>
+        </div>
+        <button type="submit" style="background-color: rgb(82, 82, 239);"
+          class="py-3 px-5 text-sm font-medium text-center text-white rounded-lg bg-primary-700 sm:w-fit hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">Submit
+        </button>
+      </form>
+    </div>
+  </section>
+
+
+  <!-- news letter -->
+
+  <div class="news">
+    <div class="news-letter">
+      <h2 class=" text-6xl tracking-tight font-bold">Join our News Letter</h2>
+      <p class="news-desc">Signup for our email newspaper to get exclusive discounts, updates, and more</p>
+      <input class="news-input" type="text"><br>
+      <button class="news-button">Subscribe &nbsp;<i class="fa-solid fa-arrow-right"></i></button>
+    </div>
+  </div>
+  </div>
+
+
+
+
+  <!-- footer -->
+  <div class="footer">
+    <div class="footer-container">
+      <h1 class="mb-3 text-4xl tracking-tight font-bold">Nostra</h1>
+      <p class="footer-desc">The Standard chunk of Lorem ipsum used since the 1500s is reprodused below for those
+        interest</p>
+      <div class="footer-icon-container">
+        <i class="icon fa-brands fa-instagram" style="color: #ffffff;"></i>
+        <i class="icon fa-brands fa-twitter" style="color: #ffffff;"></i>
+        <i class="icon fa-brands fa-facebook" style="color: #ffffff;"></i>
+      </div>
+      <p class="subtitle">@ 2024 Nostra.com</p>
+    </div>
+  </div>
+
+</body>
+
+</html>
