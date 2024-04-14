@@ -1,3 +1,4 @@
+
 // offer bar
 
 var offerbar = document.getElementById("offer-bar")
@@ -22,5 +23,3 @@ menuicon.addEventListener("click",function(){
 closenav.addEventListener("click",function(){
   sidenav.style.marginLeft="-60%"
 })
-
-
